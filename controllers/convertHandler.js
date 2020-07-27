@@ -14,7 +14,7 @@ function ConvertHandler() {
     if(fullStop) return result = 'Invalid Number'
     input = input.replace(/\s+/g,'');
     //console.log(input)
-    let regx = input.search(/\d|\d+gal|gal|\d+l|l|\d+mi|mi|\d+km|km|\dlbs|lbs/gi);
+    let regx = input.search(/\d|\d+gal|gal|\d+l|l|\d+mi|mi|\d+km|km|\d+kg|kg|\dlbs|lbs/gi);
     //console.log(regx)
     
     if(regx == 0){
