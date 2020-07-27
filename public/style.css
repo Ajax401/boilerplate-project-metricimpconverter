@@ -1,0 +1,21 @@
+header{
+  border:2px solid grey;
+  padding:-20px;
+  margin-left:5%;
+  font-style:italic;
+  text-decoration:underline;
+}
+
+h1{
+margin-left:2%;
+}
+
+img{
+   width:4%;
+   border:2px solid grey;
+   margin-rigt:5%;
+}
+
+#userstories{
+  border:2px solid grey;
+}
