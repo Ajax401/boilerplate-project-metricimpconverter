@@ -34,7 +34,7 @@ module.exports = function (app) {
           string: toString
         });
       } else {
-        return res.json({string:'Error-',error: initNum === 'Invalid Number' && initUnit === 'Invalid Unit' ? initNum + ' and ' + 'unit' : initNum === 'Invalid Number' ? initNum : initUnit})
+        return res.json({string:'Error-',error: initNum === 'Invalid Number' && initUnit === 'Invalid Unit' ? initNum + ' and ' + 'Unit' : initNum === 'Invalid Number' ? initNum : initUnit})
       }   
     });
     
